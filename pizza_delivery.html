@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>  <!--this shows we are using html 5-->
 <html lang = "en-US">
     <head>
@@ -94,3 +95,69 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </body>
 </html>
+=======
+<!DOCTYPE html>  <!--this shows we are using html 5-->
+<html lang = "en-US">
+    <head>
+            <!--http://rebloggy.com/post/gif-art-cute-pizza-illustrator/74655039569-->
+            <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
+            <link rel = "title icon" href = "Icon.gif">
+            <title>Pizza Order Application</title>
+            <meta charset = "UTF-8">
+            <meta name = "viewport" content=  "width=device-width, initial-scale = 1">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+            <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <ul>
+            <li><a class = "active" href = "#home">Home</a></li>
+            <li><a href = "#Menu">Menu</a></li>
+            <li><a href = "#Offer">Offers</a></li>
+            <li><a href = "#stores">Store Locations</a></li>
+            <li><a href = "#aboutus">Contact Us</a></li>
+            <div class = "dropdown">
+                <button class = "signin"><a href = "#sign">Sign In</button>
+                <div class = "dropdown-content">
+                    <button onclick = "document.getElementById('id01').style.display='block'">Login</button>
+                    <a href = "#">Sign up</button>
+                </div>
+            </div>
+        </ul>
+        <div id = "id01" class = "modal">
+            <form class="modal-content animate" action="/action_page.php" style="max-width:500px; margin: auto">
+                <h2> Log In</h2>
+                <div class= "container">
+                    <i class = "fa-fa-user icon"></i>
+                    <!--<span class = "glyphicon glyphicon-search"></span>-->
+                    <input class = "input-field" type= "text" placeholder= "Enter Username" name="uname" required>
+                </div>
+                <div class= "container">
+                    <i class = "fa-fa-key icon"></i>
+                    <input class = "input-field" type= "text" placeholder= "Enter Password" name="psw" required>
+                </div>
+                <div class = "container">
+                    <button type= "submit" class = "login">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember">Remember me
+                    </label>
+                </div>
+                <div class= "container" style = "background-color: #1a1a1a">
+                    <button type= "button" onclick="document.getElementById('id01').style.display = 'none'" class = "cancelbtn">Cancel</button>
+                    <span class = "psw"><a href = "#"> Forgot password?</a></span>
+                </div>
+            </form>
+        </div>
+        
+        <!--<p title = "Tooltip">Trial message</p>--> <!--refer to html attributes-->
+       <form action ="/action_page.php" target="_blank">       <!--read more in html forms-->
+            <div class = "Location">
+                    <input type= "text" name = "location" placeholder= "Enter your location" id = "enter_loc">
+                    <button type = "button" id = "auto_detect" onclick = "alert('Please allow the webpage to allow location cookies to automatically detect your location')">Auto Detect</button><br>
+            </div>
+            <div class ="bg-image img1"></div>
+        </form>
+        <script src = "script.js"></script>
+    </body>
+</html>
+>>>>>>> b0a8a9eb4d35056814dfda9d23e5657bdfdb61a1
